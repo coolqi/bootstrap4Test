@@ -10,9 +10,20 @@ body {
 .yellow-font {
   color: #eeb120; }
 
+div.yellow-btn {
+  background-color: #f1ad1e;
+  color: #333;
+  text-transform: capitalize; }
+
 .capitalize {
   text-transform: uppercase;
   font-family: 'LatoWebBlack'; }
+
+.grid-for-img {
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .image-tag {
   background: #333333;
@@ -47,9 +58,15 @@ body {
   padding: 50px 100px; }
   .section-two .award-img {
     width: 100%; }
+  .section-two .grid-for-img {
+    padding-right: 0; }
+  .section-two .content {
+    padding-left: 0;
+    font-size: 12px; }
   .section-two .grid-img {
     position: relative;
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 15px; }
     .section-two .grid-img .image-tag {
       position: absolute;
       left: 10px;
@@ -57,9 +74,26 @@ body {
     .section-two .grid-img img {
       padding-left: 0;
       height: 100%; }
+    .section-two .grid-img.second-line {
+      margin: 0; }
   .section-two .check-btn {
     color: #fff;
     background: #f1ad1e; }
+
+.section-three-head {
+  background: black;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  height: 130px; }
+  .section-three-head .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%); }
+
+.section-three {
+  padding: 50px 100px; }
 
 .up-footer {
   background: #333333;

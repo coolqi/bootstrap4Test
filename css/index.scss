@@ -15,9 +15,22 @@ body {
 	color: $yellow;
 }
 
+div.yellow-btn {
+	background-color: rgb(241,173,30);
+	color: #333;
+	text-transform: capitalize;
+}
+
 .capitalize {
 	text-transform: uppercase;
 	font-family: 'LatoWebBlack';
+}
+
+.grid-for-img {
+	display: flex;	
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .image-tag {
@@ -60,9 +73,17 @@ body {
 	.award-img{
 		width: 100%;
 	}
+	.grid-for-img {
+		padding-right: 0;
+	}
+	.content {
+		padding-left: 0;
+		font-size: 12px;
+	}
 	.grid-img {
 		position: relative;
 		padding: 0;
+		margin-bottom: 15px;
 		.image-tag {
 			position: absolute;
 			left: 10px;
@@ -72,6 +93,9 @@ body {
 			padding-left: 0;
 			height: 100%;
 		}
+		&.second-line {
+			margin: 0;
+		}
 	}
 	.check-btn {
 		color: #fff;
@@ -79,6 +103,23 @@ body {
 	}
 }
 
+.section-three-head {
+	background: rgb(0,0,0);
+	color: #fff;
+	font-size: 16px;
+	position: relative;
+	height: 130px;
+	.content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+}
+
+.section-three {
+	padding: 50px 100px;
+}
 
 
 .up-footer {
