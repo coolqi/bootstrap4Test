@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*font-size: 0;*/
+  background: #fff;
+  background-image: radial-gradient(#f0f0f0 10%, transparent 0);
+  background-size: 20px 20px; }
+
+.yellow-font {
+  color: #eeb120; }
+
+.capitalize {
+  text-transform: uppercase;
+  font-family: 'LatoWebBlack'; }
+
+.image-tag {
+  background: #333333;
+  color: #fff;
+  text-transform: capitalize; }
+
+.logo-section {
+  background: black;
+  color: #fff;
+  font-family: 'LatoWebBlack';
+  font-style: 'normal';
+  padding: 25px 55px; }
+  .logo-section .logo {
+    font-size: 28px;
+    letter-spacing: 1px; }
+  .logo-section .slogan {
+    margin-top: 370px;
+    margin-bottom: 80px;
+    font-size: 30px;
+    letter-spacing: 1px; }
+    .logo-section .slogan .slogan-left {
+      padding: 20px;
+      background: #fff;
+      color: #eeb120;
+      border: 1px solid #8a8a8a; }
+    .logo-section .slogan .slogan-right {
+      margin-left: -10px;
+      padding: 20px;
+      border: 1px solid #8a8a8a; }
+
+.section-two {
+  padding: 50px 100px; }
+  .section-two .award-img {
+    width: 100%; }
+  .section-two .grid-img {
+    position: relative;
+    padding: 0; }
+    .section-two .grid-img .image-tag {
+      position: absolute;
+      left: 10px;
+      bottom: 10px; }
+    .section-two .grid-img img {
+      padding-left: 0;
+      height: 100%; }
+  .section-two .check-btn {
+    color: #fff;
+    background: #f1ad1e; }
+
+.up-footer {
+  background: #333333;
+  color: white;
+  line-height: 40px;
+  font-size: 12px; }
+
+footer p {
+  margin-top: 15px;
+  font-size: 10px; }
+
+/*# sourceMappingURL=index.css.map */
