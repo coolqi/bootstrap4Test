@@ -1,219 +1,172 @@
-/* line 4, index.scss */
 body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'lato regular';
+  font: normal 100% 'LatoBold', 'LatoLight';
   background: #fff;
   background-image: radial-gradient(#f0f0f0 10%, transparent 0);
   background-size: 20px 20px;
   overflow-x: hidden; }
 
-/* line 15, index.scss */
 .seventeen {
-  font-size: 17px; }
+  font-size: 1.0625em; }
 
-/* line 19, index.scss */
 .section-title {
-  font-size: 22px; }
+  font-size: 1.375em; }
 
-/* line 23, index.scss */
 .yellow-font {
   color: #eeb120; }
 
-/* line 27, index.scss */
 .yellow-btn, .section-two .check-btn, .section-five .check-btn {
   background-color: #e8ae43;
   color: #fff;
   text-transform: capitalize; }
 
-/* line 33, index.scss */
 .yellow-line {
   margin: 40px 0; }
 
-/* line 37, index.scss */
 .capitalize {
   text-transform: uppercase;
-  font-family: 'LatoWebBlack'; }
+  font-family: 'LatoBold'; }
 
-/* line 42, index.scss */
 .grid-for-img {
   display: flex;
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 49, index.scss */
 .grid-img, .section-two .grid-img, .section-three .grid-img {
   position: relative;
   padding: 0;
   margin-bottom: 15px; }
 
-/* line 55, index.scss */
 .image-tag, .section-two .grid-img .image-tag, .section-three .image-tag {
-  font-size: 14px;
+  font-size: 0.875em;
   background: #333333;
   position: absolute;
   color: #fff;
   text-transform: capitalize;
   padding: 5px 10px;
-  left: 10px;
-  bottom: 10px; }
+  left: 0.625em;
+  bottom: 0.625em; }
 
-/* line 66, index.scss */
 .card-title, .section-three .grid-item .card-title {
   background: #333;
   color: #fff;
   text-transform: capitalize;
-  font-size: 18px;
-  padding: 10px; }
+  font-size: 1.132em;
+  padding: 10px;
+  font-family: 'LatoBold'; }
 
-/* line 75, index.scss */
 .logo-section {
   background: black;
   color: #fff;
-  font-family: 'LatoWebBlack';
-  font-style: 'normal';
+  font-family: 'LatoBold';
   padding: 25px 55px; }
-  /* line 81, index.scss */
   .logo-section .logo {
-    font-size: 28px;
+    font-size: 1.75em;
     letter-spacing: 1px; }
-  /* line 85, index.scss */
   .logo-section .slogan {
     margin-top: 370px;
     margin-bottom: 80px;
-    font-size: 30px;
+    font-size: 1.875em;
     letter-spacing: 1px; }
-    /* line 90, index.scss */
     .logo-section .slogan .slogan-left {
       padding: 20px;
       background: #fff;
       color: #eeb120;
       border: 1px solid #8a8a8a; }
-    /* line 96, index.scss */
     .logo-section .slogan .slogan-right {
       margin-left: -10px;
       padding: 20px;
       border: 1px solid #8a8a8a; }
 
-/* line 104, index.scss */
 .section-two {
   padding: 50px 0; }
-  /* line 106, index.scss */
   .section-two .award-img {
     width: 100%; }
-  /* line 109, index.scss */
   .section-two .grid-for-img {
     padding-right: 0; }
-  /* line 113, index.scss */
   .section-two .content {
-    font-size: 12px; }
+    font-size: 0.75em; }
     @media (min-width: 768px) and (max-width: 991px) {
-      /* line 113, index.scss */
       .section-two .content {
         padding-left: 0; } }
-  /* line 120, index.scss */
   .section-two .second {
     margin-top: 100px; }
-  /* line 123, index.scss */
   .section-two .grid-img {
     margin-bottom: 15px; }
-    /* line 129, index.scss */
     .section-two .grid-img img {
       padding-left: 0;
       height: 100%; }
-    /* line 133, index.scss */
     .section-two .second-line.grid-img {
       margin: 0 0 15px 0; }
 
-/* line 142, index.scss */
 .section-three-head, .section-four-head, .section-five-head, .section-six-head {
   background: black;
   color: #fff;
-  font-size: 22px;
+  font-size: 1.375em;
   position: relative;
   height: 260px;
   width: 100%; }
-  /* line 149, index.scss */
   .section-three-head .content, .section-four-head .content, .section-five-head .content, .section-six-head .content {
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
-    /* line 153, index.scss */
     .section-three-head .content div img, .section-four-head .content div img, .section-five-head .content div img, .section-six-head .content div img {
       margin-top: 40px; }
 
-/* line 159, index.scss */
 .section-three {
   padding: 50px 0;
   position: relative; }
-  /* line 162, index.scss */
   .section-three .grid-img {
     margin-bottom: 5px;
     padding-right: 5px; }
-    /* line 166, index.scss */
     .section-three .grid-img img {
       padding: 0;
       height: 100%; }
-    /* line 170, index.scss */
     .section-three .grid-img:nth-child(6) {
       padding-right: 0; }
-    /* line 173, index.scss */
     .section-three .grid-img:last-child {
       padding-right: 0; }
-  /* line 177, index.scss */
   .section-three .section-two .grid-img .image-tag, .section-two .grid-img .section-three .image-tag, .section-three .image-tag {
     left: 5px; }
-  /* line 181, index.scss */
   .section-three .second {
     margin-top: 100px; }
-  /* line 184, index.scss */
   .section-three .grid-item {
     padding: 0;
     padding-left: 10px; }
-    /* line 187, index.scss */
     .section-three .grid-item .card-title {
       margin: 0; }
-    /* line 191, index.scss */
     .section-three .grid-item .card-content {
-      font-size: 14px;
+      font-size: 0.875em;
       padding: 10px;
       border-bottom: 1px solid #333; }
-    /* line 196, index.scss */
     .section-three .grid-item .icon {
       margin: 20px 0;
       height: 30px; }
-    /* line 200, index.scss */
     .section-three .grid-item p {
-      font-size: 18px; }
-    /* line 204, index.scss */
+      font-size: 1.125em;
+      font-family: 'LatoLight'; }
     .section-three .grid-item .light {
-      font-family: "lato light"; }
+      font-family: "LatoLight"; }
 
-/* line 210, index.scss */
 .section-four-head {
   height: 300px; }
-  /* line 213, index.scss */
   .section-four-head .col-8 {
     height: 70px; }
 
-/* line 218, index.scss */
 .section-four {
   padding: 50px 0; }
-  /* line 220, index.scss */
   .section-four .category {
     margin-bottom: 30px; }
-  /* line 223, index.scss */
   .section-four .grid-img {
     background: #fff;
     padding: 0 5px;
     margin-bottom: 10px; }
-  /* line 228, index.scss */
   .section-four .grid-content {
     border: 1px solid #333;
     padding: 20px; }
-  /* line 232, index.scss */
   .section-four p {
     display: -webkit-box;
     display: -moz-box;
@@ -223,127 +176,99 @@ body {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     line-clamp: 3;
-    font-size: 14px; }
-  /* line 243, index.scss */
+    font-size: 0.875em; }
   .section-four button {
-    font-size: 14px; }
-  /* line 247, index.scss */
+    font-size: 0.875em; }
   .section-four .category .btn-outline-dark:hover, .section-four .category .btn-outline-dark:focus, .section-four .category .btn-outline-dark:active {
     color: #f1ad1d; }
-  /* line 253, index.scss */
   .section-four .second {
     margin-top: 100px; }
-  /* line 256, index.scss */
   .section-four .yellow-line {
     margin-top: 20px; }
-  /* line 259, index.scss */
   .section-four .content {
     margin-top: 20px;
-    font-size: 14px; }
-  /* line 263, index.scss */
+    font-size: 0.875em; }
   .section-four .third {
     margin-top: 200px; }
-  /* line 266, index.scss */
   .section-four .top-part {
     border-bottom: 2px solid #333;
     margin-bottom: 10px;
     padding-bottom: 10px; }
-    /* line 270, index.scss */
     .section-four .top-part img {
       width: 100%; }
-  /* line 274, index.scss */
   .section-four .second-grid-img {
     padding: 7.5px; }
-  /* line 278, index.scss */
   .section-four .bottom-part .headimg {
     width: 80px;
     height: 50px;
     float: left;
     display: inline-block; }
-  /* line 284, index.scss */
   .section-four .bottom-part .name {
     display: inline-block;
     float: left;
     margin-left: 10px;
-    font-size: 14px; }
-    /* line 292, index.scss */
+    font-size: 0.875em; }
+    .section-four .bottom-part .name .full-name {
+      font-family: "lato regular"; }
     .section-four .bottom-part .name .job-title {
-      font-family: 'lato-light'; }
+      font-family: 'LatoLight'; }
 
-/* line 299, index.scss */
 .section-five-head {
   height: 360px; }
-  /* line 302, index.scss */
   .section-five-head .second-line {
-    font-size: 14px; }
-  /* line 305, index.scss */
+    font-size: 0.875em; }
   .section-five-head .line {
     margin-top: 40px; }
 
-/* line 309, index.scss */
 .section-five {
   padding: 50px 0; }
 
-/* line 316, index.scss */
 .section-six-head {
   height: 300px; }
-  /* line 319, index.scss */
   .section-six-head .btn-outline-dark {
     border: 1px solid #fff;
     color: #fff; }
-    /* line 323, index.scss */
     .section-six-head .btn-outline-dark:focus {
       background: #333;
       color: #fff; }
 
-/* line 329, index.scss */
 .section-six {
   padding: 50px 0; }
-  /* line 331, index.scss */
   .section-six .sentence {
     padding-top: 10px; }
-  /* line 334, index.scss */
   .section-six .second {
     margin-top: 80px; }
-  /* line 337, index.scss */
   .section-six .multiline {
     margin-top: 15px; }
-  /* line 340, index.scss */
   .section-six button {
     text-transform: uppercase; }
-  /* line 343, index.scss */
   .section-six .contact {
-    font-size: 14px; }
-  /* line 347, index.scss */
+    font-size: 0.875em;
+    font-family: 'LatoLight'; }
   .section-six .form-control {
-    font-size: 14px; }
-  /* line 350, index.scss */
+    font-size: 0.875em; }
   .section-six .item-img {
     background-color: #333;
     padding: 12px 14px;
     width: 40px;
     height: 35px;
     margin-bottom: 10px; }
-  /* line 357, index.scss */
   .section-six .item-text {
     margin-left: 10px; }
-  /* line 360, index.scss */
   .section-six .yellow-bg {
     background: #e7ae43;
     padding: 13px 14px;
     width: 40px;
     height: 40px; }
 
-/* line 368, index.scss */
 .up-footer {
   background: #333333;
   color: white;
   line-height: 40px;
-  font-size: 12px; }
+  font-size: 0.75em; }
 
-/* line 375, index.scss */
 footer p {
   margin-top: 15px;
-  font-size: 10px; }
+  font-size: 0.625em; }
 
 /*# sourceMappingURL=index.css.map */

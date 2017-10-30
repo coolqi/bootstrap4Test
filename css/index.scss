@@ -5,7 +5,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'lato regular';
+	font: normal 100% 'LatoBold', 'LatoLight';
 	background: #fff;
 	background-image: radial-gradient(rgb(240,240,240) 10%, transparent 0);
 	background-size: 20px 20px;
@@ -13,11 +13,11 @@ body {
 }
 
 .seventeen {
-	font-size: 17px;
+	font-size: 1.0625em;
 }
 
 .section-title {
-	font-size: 22px;
+	font-size: 1.375em;
 }
 
 .yellow-font {
@@ -36,7 +36,7 @@ body {
 
 .capitalize {
 	text-transform: uppercase;
-	font-family: 'LatoWebBlack';
+	font-family: 'LatoBold';
 }
 
 .grid-for-img {
@@ -53,39 +53,38 @@ body {
 }
 
 .image-tag {
-	font-size: 14px;
+	font-size: 0.875em;
 	background: $brown;
 	position: absolute;
 	color: #fff;
 	text-transform: capitalize;
 	padding: 5px 10px;
-	left: 10px;
-	bottom: 10px;
+	left: 0.625em;
+	bottom: 0.625em;
 }
 
 .card-title {
 	background: #333;
 	color: #fff;
 	text-transform: capitalize;
-	font-size: 18px;
+	font-size: 1.132em;
 	padding: 10px;
-	// font-family: 'Montserrat Bold';
+	font-family: 'LatoBold';
 }
 
 .logo-section {
 	background: rgb(0,0,0);
 	color: #fff;
-	font-family: 'LatoWebBlack';
-	font-style: 'normal';
+	font-family: 'LatoBold';
 	padding: 25px 55px;
 	.logo {
-		font-size: 28px;
+		font-size: 1.75em;
 		letter-spacing: 1px;
 	}
 	.slogan {
 		margin-top: 370px;
 		margin-bottom: 80px;
-		font-size: 30px;
+		font-size: 1.875em;
 		letter-spacing: 1px;
 		.slogan-left {
 			padding: 20px;
@@ -115,7 +114,7 @@ body {
 		@media (min-width: 768px) and (max-width: 991px) { 
 			padding-left: 0;
 		}
-		font-size: 12px;
+		font-size: 0.75em;
 	}
 	.second {
 		margin-top: 100px;
@@ -142,7 +141,7 @@ body {
 .section-three-head {
 	background: rgb(0,0,0);
 	color: #fff;
-	font-size: 22px;
+	font-size: 1.375em;
 	position: relative;
 	height: 260px;
 	width: 100%;
@@ -189,7 +188,7 @@ body {
 			margin: 0;
 		}
 		.card-content {
-			font-size: 14px;
+			font-size: 0.875em;
 			padding: 10px;
 			border-bottom: 1px solid #333;
 		}
@@ -198,11 +197,11 @@ body {
 			height: 30px
 		}
 		p {
-			font-size: 18px;
-			// font-family: 'lato light';
+			font-size: 1.125em;
+			font-family: 'LatoLight';
 		}
 		.light {
-			font-family: 'lato light'
+			font-family: 'LatoLight'
 		}
 	}
 }
@@ -238,10 +237,10 @@ body {
     -webkit-box-orient: vertical;  
     -webkit-line-clamp:3;
     line-clamp: 3;
-    font-size: 14px;  
+    font-size: 0.875em;  
 	}
 	button {
-		font-size: 14px;
+		font-size: 0.875em;
 	}
 	.category .btn-outline-dark {
 		&:hover,
@@ -258,7 +257,7 @@ body {
 	}
 	.content {
 		margin-top: 20px;
-		font-size: 14px;
+		font-size: 0.875em;
 	}
 	.third {
 		margin-top: 200px;
@@ -285,12 +284,12 @@ body {
 			display: inline-block;
 			float: left;
 			margin-left: 10px;
-			font-size: 14px;
+			font-size: 0.875em;
 			.full-name {
-				// font-family: 'lato regular'
+				font-family: 'lato regular'
 			}
 			.job-title {
-				font-family: 'lato-light';
+				font-family: 'LatoLight';
 			}
 		}
 	}
@@ -300,7 +299,7 @@ body {
 	@extend .section-three-head;
 	height: 360px;
 	.second-line {
-		font-size: 14px;
+		font-size: 0.875em;
 	}
 	.line {
 		margin-top: 40px;
@@ -341,11 +340,11 @@ body {
 		text-transform:uppercase;
 	}
 	.contact {
-		font-size: 14px;
-		// font-family: 'lato light';
+		font-size: 0.875em;
+		font-family: 'LatoLight';
 	}
 	.form-control {
-		font-size: 14px;
+		font-size: 0.875em;
 	}
 	.item-img {
 		background-color: #333;
@@ -369,10 +368,10 @@ body {
 	background: $brown;
 	color: white;
 	line-height:40px;
-	font-size: 12px;
+	font-size: 0.75em;
 }
 
 footer p {
 	margin-top: 15px;
-	font-size: 10px;
+	font-size: 0.625em;
 }
